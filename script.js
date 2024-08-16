@@ -1,5 +1,5 @@
-const clientId = "YOUR_CLIENT_ID";
-const redirectUri = "https://srushtij05.github.io/LinkedIn_Login/"; 
+const clientId = "862v8m5k3m56q0"; // Replace with your LinkedIn Client ID
+const redirectUri = "https://srushtij05.github.io/LinkedIn_Login/"; // e.g., https://yourdomain.com or http://localhost:8000
 
 document.getElementById("linkedinLogin").onclick = function () {
   const authUrl = `https://www.linkedin.com/oauth/v2/authorization?response_type=token&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=r_liteprofile%20r_emailaddress`;
